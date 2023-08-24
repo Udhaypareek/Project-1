@@ -1,0 +1,91 @@
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(img3.jpg);
+        }
+
+        .Left {
+            position: absolute;
+            display: inline-block;
+            font-weight: bolder;
+            width: 10%;
+            text-align: center;
+            padding: 0px;
+            height: 157.5px;
+            line-height: 20px;
+        }
+
+        .Mid {
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            font-weight: bold;
+        }
+
+        .Right {
+            display: inline-block;
+            position: absolute;
+            right: 40px;
+            top: 20px;
+        }
+
+        .Navbar {
+            display: inline-block;
+        }
+
+        .Navbar li {
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .Navbar li a {
+            color: bisque;
+            text-decoration: none;
+            padding: 0px 20px;
+        }
+
+        .Navbar li a:hover,
+        .Navbar li a.active {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .Left img {
+            width: 100%;
+        }
+
+        .searchbox {
+            border: 4px solid black;
+            border-radius: 25px;
+        }
+
+        .Container {
+
+            border: 5px solid bisque;
+            margin: 38px auto;
+            padding: 0px 0px;
+            border-radius: 28px;
+            width: 20%;
+            text-align: center;
+        }
+
+        .btn {
+            border: 2px solid black;
+            border-radius: 6px;
+            margin: 2px 2px;
+            padding: 2px 2px;
+        }
+
+        .Form {
+            border-radius: 2px;
+            display: block;
+            text-align: center;
+            margin: 4px 4px;
+            padding: 2px 2px;
+        }
+
+        .fitlinneimage {
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
